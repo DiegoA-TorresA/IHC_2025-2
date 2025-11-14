@@ -80,7 +80,7 @@
 }
 .seccion-zondig {
   padding: 60px 20px;
-  background-color: white;
+  background-color: rgb(246, 246, 104);
 }
 .div-gral-zondig {
   display: flex;
@@ -94,7 +94,7 @@
   flex: 1;
 }
 .div-zondig-texto h2 {
-  color: blueviolet;
+  color: rgb(95, 204, 0);
 }
 .div-zondig-texto p {
   color: black;

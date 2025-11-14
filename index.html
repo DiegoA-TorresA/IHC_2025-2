@@ -109,7 +109,7 @@
     <!--SECCION FORMULARIOS-->
     <section class="seccion-formulario" id="contactanos">
       <div class="div-cont-formulario">
-        <h2>Formulario de Registro</h2>
+        <h2>Registro de Compra</h2>
         <p>Complete todos los campos...</p>
         <form class="formulario">
           <!--INPUT:TEXT-->
@@ -124,18 +124,18 @@
           </div>
           <!--Lista DESPLEGABLE-->
           <div class="campo">
-            <label for="nombres">Pais</label>
+            <label for="nombres">Producto</label>
             <select name="pais" id="pais">
-              <option value="">Seleccione un pais</option>
-              <option value="peru">Peru</option>
-              <option value="colombia">Colombia</option>
-              <option value="argentina">Argentina</option>
-              <option value="mexico">Mexico</option>
+              <option value="">Seleccione un producto</option>
+              <option value="piña6">Piña Golden 6</option>
+              <option value="piña8">Piña Golden 8</option>
+              <option value="piña10">Piña Golden 10</option>
+              <option value="piña12">Piña Golden 12</option>
             </select>
           </div>
           <!--CHECKBOX-->
           <div class="campo">
-            <label>Intereses:</label>
+            <label>Tipo de Pago:</label>
             <ul class="lista-checkbox">
               <li>
                 <label
@@ -143,7 +143,7 @@
                     type="checkbox"
                     name="intereses"
                     value="a"
-                  />noooo</label
+                  />Efectivo</label
                 >
               </li>
               <li>
@@ -152,41 +152,36 @@
                     type="checkbox"
                     name="intereses"
                     value="b"
-                  />copie</label
+                  />Yape</label
                 >
               </li>
               <li>
                 <label
-                  ><input
-                    type="checkbox"
-                    name="intereses"
-                    value="c"
-                  />loooo</label
+                  ><input type="checkbox" name="intereses" value="c" />Tarjeta
+                  de débito</label
                 >
               </li>
               <li>
                 <label
-                  ><input
-                    type="checkbox"
-                    name="intereses"
-                    value="d"
-                  />mismo</label
+                  ><input type="checkbox" name="intereses" value="d" />Tarjeta
+                  de credito</label
                 >
               </li>
             </ul>
           </div>
           <!--RADIO BUTTON-->
           <div class="campo">
-            <label>Sexo:</label>
+            <label>Tipo de entrega</label>
             <ul class="lista-radio">
               <li>
                 <label
-                  ><input type="radio" name="sexo" value="m" />Masculino</label
+                  ><input type="radio" name="sexo" value="m" />Recojo en
+                  tienda</label
                 >
               </li>
               <li>
                 <label
-                  ><input type="radio" name="sexo" value="f" />Femenino</label
+                  ><input type="radio" name="sexo" value="f" />Delivery</label
                 >
               </li>
             </ul>
@@ -202,12 +197,8 @@
         <div class="footer-container">
           <!-- Logo y nombre de sitio -->
           <div class="footer-brand">
-            <img
-              src="Imagenes/senati-logo.png"
-              alt="Logo"
-              class="footer-logo"
-            />
-            <p>SENATI</p>
+            <img src="img/piñaLogo2.png" alt="Logo" class="footer-logo" />
+            <p>Golden Fresh</p>
             <small>© 2025 Todos los derechos reservados</small>
           </div>
 
