@@ -32,7 +32,7 @@
   border-radius: 5px;
 }
 .Menu-Horizontal li a:hover {
-  color: lightgreen;
+  color: rgb(144, 238, 144);
 }
 .Menu-Horizontal li:hover .Menu-Vertical {
   display: block;
